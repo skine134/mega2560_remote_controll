@@ -12,9 +12,6 @@
 #include <Sound.h>
 #include <RgbLcd.h>
 
-#define RX_PIN 3
-#define TX_PIN 2
-
 enum channel
 {
     CHANNEL_LED,
@@ -62,5 +59,5 @@ public:
 
     void buzzerAction(int data);
 };
-extern MegaRemoteControl gMegaRemoteContro;
+extern MegaRemoteControl gMegaRemoteControl;
 #endif
