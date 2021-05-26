@@ -1,0 +1,5 @@
+{
+    "sketch": "jahan_duino_uno.ino",
+    "board": "arduino:avr:uno",
+    "port": "COM8"
+}
